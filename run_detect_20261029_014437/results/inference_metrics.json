@@ -1,0 +1,20 @@
+{
+  "balanced_ACC": 0.6736,
+  "AUC": 0.8079,
+  "SP": 0.9275,
+  "SN": 0.4197,
+  "accuracy": 0.6736,
+  "precision": 0.8526,
+  "f1": 0.5625,
+  "f_beta": 0.4974,
+  "decision_threshold": 0.5,
+  "total_samples": 2316,
+  "true_label_cancer_cases": 1158,
+  "true_label_benign_cases": 1158,
+  "cancer_cases": 1158,
+  "non_cancer_cases": 1158,
+  "TP": 486,
+  "TN": 1074,
+  "FP": 84,
+  "FN": 672
+}

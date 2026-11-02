@@ -1,0 +1,18 @@
+{
+  "1": {
+    "p_low": 0.05,
+    "p_mid": 0.5,
+    "p_high": 0.95,
+    "mean": 0.4837,
+    "std": 0.2036,
+    "samples_analyzed": 30
+  },
+  "2": {
+    "p_low": 0.05,
+    "p_mid": 0.5,
+    "p_high": 0.95,
+    "mean": 0.4835,
+    "std": 0.1988,
+    "samples_analyzed": 30
+  }
+}

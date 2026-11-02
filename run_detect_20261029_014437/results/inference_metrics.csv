@@ -1,0 +1,2 @@
+balanced_ACC,AUC,SP,SN,accuracy,precision,f1,f_beta,decision_threshold,total_samples,true_label_cancer_cases,true_label_benign_cases,cancer_cases,non_cancer_cases,TP,TN,FP,FN
+0.6736,0.8079,0.9275,0.4197,0.6736,0.8526,0.5625,0.4974,0.5,2316,1158,1158,1158,1158,486,1074,84,672

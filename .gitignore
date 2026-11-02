@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 *.so
 
-# Model Checkpoints & Weights
+# Model Checkpoints & Large Weights (strictly excluded)
 *.pth
 *.pt
 *.tar
@@ -12,31 +12,20 @@ __pycache__/
 *.h5
 *.ckpt
 checkpoints/
+*/checkpoints/
+**/checkpoints/**
 
-# Data & Cache Files
+# Heavy Raw Data & Offline Augmented Caches
 *.npy
 *.npz
 *.dcm
 *.dicom
-*.csv
 augmented_cache/
 preprocessed_cache/
 cache/
 data/
 
-# Output Images & Artifacts
-*.png
-*.jpg
-*.jpeg
-*.webp
-*.geojson
-*.dicom.rt
-run_*/
-rsna_xai_outputs/
-results/
-PPed/
-
-# Environment & IDE
+# Temporary & IDE files
 .venv/
 venv/
 ENV/

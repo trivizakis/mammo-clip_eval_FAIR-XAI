@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              704.0,
+              608.0
+            ],
+            [
+              1024.0,
+              608.0
+            ],
+            [
+              1024.0,
+              1038.0
+            ],
+            [
+              704.0,
+              1038.0
+            ],
+            [
+              704.0,
+              608.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "patient_id": "30094",
+        "image_id": "883863733",
+        "cancer_true": 1,
+        "pred_score": 0.1079,
+        "decision_threshold": 0.5,
+        "decision": "BENIGN",
+        "mc_score_std": 0.0632,
+        "true_label_folder": "malignant"
+      }
+    }
+  ]
+}
